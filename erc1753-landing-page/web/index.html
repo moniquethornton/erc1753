@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ERC1753 website built by Monique Thornton, 2020.">
+    <meta name="author" content="MoniqueThornton">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>ERC1753 Smart Contract Interface for Licences</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">ERC1753</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/erc1753logo.png" alt="alternative"></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#specifications">Specifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#rationale">Rationale</a>
+                </li>
+				 <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#usecases">Use Cases</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#inteface">Interface</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span class="turquoise">ERC1753</span>&nbsp;</h1>
+                            <h1>Smart Contract Interface for Licenses</h1>
+<p class="p-large">ERC1753 is the Ethereum standard for the issuance of licenses, permits and grants (Licences).</p>
+</div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/erc1753-home-image copy.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Customers -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Standard used by&nbsp;&nbsp;</h4>
+                  <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-1.png" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-2.png" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-3.png" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-4.png" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-5.png" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="image-container">
+                                        <img class="img-responsive" src="images/customer-logo-6.png" alt="alternative">
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-wrapper -->
+                        </div> <!-- end of swiper container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of customers -->
+
+
+    <!-- About -->
+<!-- end of cards-1 -->
+    <!-- end of about -->
+
+
+    <!-- Details 1 -->
+    <div class="basic-1" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                      <h2>About ERC1753</h2>
+                      <h6>ERC1753 is the Ethereum standard for the issuance of licence, permits and grants (Licences).&nbsp; </h6>
+                      <p>A&nbsp;Licence is a limited and temporary authority, granted to a natural (e.g. you) or legal person (e.g. a corporation), to do something that would otherwise be unlawful pursuant to a legal framework. A public Licence is granted by the government, directly (e.g. by the New South Wales Department of Primary Industries, Australia) or indirectly (e.g. by an agent operating under the government’s authority), and derives its authority from legislation, though this is often practically achieved via delegated legislation such as regulations. This can be contrasted to a private licence – for example, the licence you grant to a visitor who comes onto your property.</p>
+                      <p>A Licence has the following properties: </p>
+                      <p>- Granted personally to the licencee (Licencee), though it may be transferrable to another person or company; </p>
+                      <p>- Conferring a temporary right to the Licencee to own, use or do something that would otherwise be prohibited, without conferring any property interest in the underlying thing. For example, you may be granted a licence to visit a national park without acquiring any ownership in or over the park itself; </p>
+                      <p>- Allowing the government authority responsible for the Licence to amend, revoke, renew, suspend or deny the issuance of the Licence, or to impose conditions or penalties for non-compliance; and </p>
+                      <p>- Usually issued only after the payment of a fee or the meeting of some criteria.</p>
+                      <p>Additionally, a Licence may be granted in respect of certain information. For example, a Licence may be issued in respect of a vehicle registration number and attaching to that specific registered vehicle. </p>
+</div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img src="images/twoblocks.jpg" alt="alternative" class="img-fluid">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
+
+    
+    <!-- Details 2 -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/oneblock.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Motivation</h2>
+                      <p> Governments are responsible for the issuance and management of Licences. However, maintaining and sharing this data can be complicated and inefficient. The granting of Licences usually requires the filing of paper-based application forms, manual oversight of applicable legislation and data entry into registries, as well as the issuance of paper-based Licences. If individuals wish to sight information on Licence registries, they often need to be present at the government office and complete further paper-based enquiry forms in order to access that data (if available publicly). ​ </p>
+                      <p>This EIP seeks to define a standard that will allow for the granting and/or management of Licences via Ethereum smart contracts. The motivation is, in essence, to address the inefficiencies inherent in current licencing systems.</p>
+</div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 2 -->
+
+    <!-- Details Lightboxes -->
+    <!-- Details Lightbox 1 -->
+	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox-1.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>Design And Plan</h3>
+                    <hr>
+                    <h5>Core feature</h5>
+                    <p>The emailing module basically will speed up your email marketing operations while offering more subscriber control.</p>
+                    <p>Do you need to build lists for your email campaigns? It just got easier with Evolo.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Easy database browsing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User administration</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Automate user signup</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Quick formatting tools</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Fast email checking</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#rationale">RATIONALE</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 1 -->
+
+    <!-- Details Lightbox 2 -->
+	<div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox-2.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>Search To Optimize</h3>
+                    <hr>
+                    <h5>Core feature</h5>
+                    <p>The emailing module basically will speed up your email marketing operations while offering more subscriber control.</p>
+                    <p>Do you need to build lists for your email campaigns? It just got easier with Evolo.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">List building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Easy database browsing</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">User administration</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Automate user signup</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Quick formatting tools</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-check"></i><div class="media-body">Fast email checking</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#rationale">RATIONALE</a> <a class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox 2 -->
+    <!-- end of details lightboxes -->
+
+
+    <!-- specifications -->
+    <div id="specifications" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Specifications</h2>
+                  <h5 class="p-heading p-large">Method</h5>
+                </div>
+                <div class="col-lg-12">
+                  <p class="text-left text-uppercase"><strong> Notes:</strong></p>
+<p class="text-left">-&nbsp; The following specifications use syntax from Solidity <strong>0.4.17</strong> (or above) </p>
+                  <p class="text-left">- Callers MUST handle false from returns (bool success). Callers MUST NOT assume the false is never returned! </p>
+                  <p class="text-left"><strong>name</strong>&nbsp;</p>
+                  <p class="text-left"> Returns the name of the permit - e.g. "MyPermit". </p>
+                  <h3 class="text-left">function name() public view returns (string) </h3>
+<p class="text-left"><strong>totalSupply </strong> </p>
+                  <p class="text-left">Returns the total permit supply. </p>
+                  <h3 class="text-left">function totalSupply() public view returns (uint256) </h3>
+<p class="text-left"><strong>grantAuthority </strong> </p>
+                  <p class="text-left">Adds an ethereum address to a white list of addresses that have authority to modify a permit. </p>
+                  <h3 class="text-left">function grantAuthority(address who) </h3>
+<p class="text-left"><strong>revokeAuthority </strong> </p>
+                  <p class="text-left">Removes an ethereum address from a white list of addresses that have authority to modify a permit. </p>
+                  <h3 class="text-left">function revokeAuthority(address who) </h3>
+<p class="text-left"><strong>hasAuthority </strong> </p>
+                  <p class="text-left">Checks to see if the address has authority to grant or revoke permits. </p>
+                  <h3 class="text-left">function hasAuthority(address who) </h3>
+<p class="text-left"><strong>issue </strong> </p>
+                  <p class="text-left">Issues an ethereum address a permit between the specified date range. </p>
+                  <h3 class="text-left">function issue(address who, uint256 from, uint256 to) public; </h3>
+<p class="text-left"><strong>revoke </strong> </p>
+                  <p class="text-left">Revokes a permit from an ethereum address. </p>
+                  <h3 class="text-left">function revoke(address who) public; </h3>
+<p class="text-left"><strong>hasValid </strong> </p>
+                  <p class="text-left">Checks to see if an ethereum address has a valid permit. </p>
+                  <h3 class="text-left">function hasValid(address who) public view returns (boolean); </h3>
+<p class="text-left"><strong>purchase </strong> </p>
+                  <p class="text-left">Allows a user to self procure a licence. </p>
+                  <h3 class="text-left">function purchase(uint256 from, uint256 to) public payable;</h3>
+<p class="text-left">&nbsp;</p>
+                </div> 
+                <!-- end of col -->
+            </div> <!-- end of row -->            <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of specifications -->
+
+
+    <!-- Rationale -->
+    <div id="rationale">
+        <div class="container">
+			 <div class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-8">
+                  <div class="text-container">
+                      <h2>Rationale</h2>
+                     
+                    <p>The use of smart contracts to apply for, renew, suspend and revoke Licences will free up much needed government resources and allow for the more efficient management of Licences. The EIP also seeks to improve the end user experience of the Licence system. In an era of open government, there is also an increased expectation that individuals will be able to easily access Licence registries, and that the process will be transparent and fair. ​ </p>
+                    <p>By creating an EIP, we hope to increase the use of Ethereum based and issued Licences, which will address these issues. </p>
+                    <p>The Ethereum blockchain is adaptable to various Licences and government authorities. It will also be easily translatable into other languages and can be used by other governmental authorities across the world. Moreover, a blockchain will more effectively protect the privacy of Licence-holders’ data, particularly at a time of an ever-increasing volume of government data breaches. </p>
+                      <p>The EIP has been developed following the review of a number of licensing regulations at the national and state level in Australia. The review allowed the identification of the common licence requirements and criteria for incorporation into the EIP. We have included these in the proposed standard but seek feedback on whether these criteria are sufficient and universal.</p>
+<p>A Licence has the following properties:</p>
+                      <p>- Granted personally to the licencee (Licencee), though it may be transferrable to another person or company; </p>
+                      <p>- Conferring a temporary right to the Licencee to own, use or do something that would otherwise be prohibited, without conferring any property interest in the underlying thing. For example, you may be granted a licence to visit a national park without acquiring any ownership in or over the park itself; </p>
+                      <p>- Allowing the government authority responsible for the Licence to amend, revoke, renew, suspend or deny the issuance of the Licence, or to impose conditions or penalties for non-compliance; and </p>
+                      <p>- Usually issued only after the payment of a fee or the meeting of some criteria. </p>
+                      <p>Additionally, a Licence may be granted in respect of certain information. For example, a Licence may be issued in respect of a vehicle registration number and attaching to that specific registered vehicle. </p>
+</div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="image-container">
+                        <img src="images/graphic4.png" alt="alternative" class="img-fluid">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+<!-- end of row -->
+        </div> 
+        <!-- end of container -->
+    </div>
+<div>
+      <div class="container">
+        <div class="basic-1" id="services2">
+          <div class="container">
+            <div class="row">
+				<div class="col-lg-6 col-xl-4">
+                <div class="image-container"> <img src="images/contract.jpg" alt="alternative" class="img-fluid"> </div>
+                <!-- end of image-container -->
+              </div>
+              <div class="col-lg-6 col-xl-8">
+                <div class="text-container">
+                  <h2>Test Cases</h2>
+                  <p>A real-world example of a Licence is a permit required to camp in a national park in Australia (e.g. Kakadu national park in the Northern Territory of Australia) under the Environment Protection and Biodiversity Conservation Regulations 2000 (Cth) (EPBC Act) and the Environment Protection and Biodiversity Conservation Regulations 2000 (the Regulations). Pursuant to the EPBC Act and the Regulations, the Director of National Parks oversees a camping permit system, which is intended to help regulate certain activities in National Parks. Permits allowing access to National Parks can be issued to legal or natural persons if the applicant has met certain conditions. ​ </p>
+                  <p>The current digital portal and application form to camp at Kakadu National Park (the Application) can be accessed at: <a href="http://www.environment.gov.au/system/files/resources/b3481ed3-164b-4e72-a9f8-91fc987d90e7/files/kakadu-camping-permit-form-19jan2015-pdf.pdf">http://www.environment.gov.au/system/files/resources/b3481ed3-164b-4e72-a9f8-91fc987d90e7/files/kakadu-camping-permit-form-19jan2015-pdf.pdf  </a></p>
+                  <p>The user must provide the following details when making an Application:&nbsp;</p>
+                  <p>- The full name and contact details of each person to whom the permit is to be issued; </p>
+                  <p>- If the applicant is a company or other incorporated body: </p>
+                  <p>&nbsp; &nbsp; ~ the name, business address and postal address of the company or incorporated body; </p>
+                  <p>&nbsp; &nbsp; ~ if the applicant is a company— </p>
+                  <p>- The full name of each of the directors of the company; </p>
+                  <p>- The full name and contact details of the person completing the application form; </p>
+                  <p>- The ACN or ABN of the company or other incorporated body (if applicable); </p>
+                  <p>- Details of the proposed camping purpose (e.g. private camping, school group, etc.); </p>
+                  <p>- A start date and duration for the camping (up to the maximum duration allowed by law); </p>
+                  <p>- Number of campers (up to the maximum allowed by law); </p>
+                  <p>- All other required information not essential to the issuance of the Licence (e.g. any particular medical needs of the campers); and </p>
+                  <p>- Fees payable depending on the site, duration and number of campers.  </p>
+                  <p>The Regulations also set out a number of conditions that must be met by licensees when the permit has been issued. The Regulations allow the Director of National Parks to cancel, renew or transfer the licence. The above workflow could be better performed by way of a smart contract. </p>
+                  <p>The key criteria required as part of this process form part of the proposed Ethereum standard. We have checked this approach by also considering the issuance of a Commercial Fishing Licence under Part 8 “Licensing and other commercial fisheries management” of the Fisheries Management (General) Regulation 2010 (NSW) (Fisheries Regulations) made pursuant to the Fisheries Management Act 1994 (NSW) (Fisheries Act). </p>
+                </div>
+                <!-- end of text-container -->
+              </div>
+              <!-- end of col -->
+              
+              <!-- end of col -->
+            </div>
+            <!-- end of row -->
+          </div>
+          <!-- end of container -->
+        </div>
+        <!-- end of basic-1 -->
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div> 
+    <!-- end of form-1 -->
+    <!-- end of rationale -->
+
+
+
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image-container">
+                        <img class="img-fluid" src="images/details-1-office-worker.svg" alt="alternative">
+              </div> <!-- end of image-container -->
+            </div> <!-- end of col -->
+            <div class="col-lg-6">
+                <h2>Use Cases</h2>
+				<h5 class="text-center">Implementation</h5>
+                <p>The issuance and ownership of a Licence can be digitally represented on the Ethereum blockchain. </p>
+                    <p>Smart contracts can be used to embed regulatory requirements with respect to the relevant Licence in the blockchain. The Licence would be available electronically in the form of a token. This might be practically represented by a QR code, for example, displaying the current Licence information. The digital representation of the Licence would be stored in a digital wallet, typically an application on a smartphone or tablet computer. The proposed standard allows issuing authorities or regulators to amend, revoke or deny Licences from time to time, with the result of their determinations reflected in the Licence token in near real-time. Licence holders will therefore be notified almost instantly of any amendments, revocations or issues involving their Licence.</p>
+            <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+</div>
+ <!-- end of testimonials -->
+
+
+    <!-- About -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <h5>ERC1753 In Action </h5>
+<div class="image-container">
+             <img src="images/civicledger- logo.png" alt="alternative" width="250" class="img-fluid">
+          </div> 
+<!-- end of image-container -->
+					<p></p>
+					<p class="p-heading">Civic Ledger has a proud history of building blockchain and smart contract software for real-world use cases addressing challenges faced by government entities. In so much that we have defined a standard that will allow for the granting and/or management of Licences via Ethereum smart contracts - EIP1753. Our motivation is, in essence, to address the inefficiencies inherent in current government licencing systems.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of about -->
+
+
+    <!-- Interface -->
+<div id="interface" class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Interface</h2>
+				  <h3>interface EIP1753 { </h3>
+				  <h3> &nbsp; &nbsp;string public name;</h3>
+				  <h3> &nbsp; &nbsp;uint256 public totalSupply;</h3>
+				  <p>&nbsp;</p>
+<h3>&nbsp; &nbsp;function grantAuthority(address who); </h3>
+				  <h3> &nbsp;function revokeAuthority(address who); </h3>
+				  <h3>function hasAuthority(address who) pure public returns (bool); </h3>
+				  <h3>&nbsp;</h3>
+				  <h3>function issue(address who, uint256 from, uint256 to) public; </h3>
+				  <h3>function revoke(address who) public; </h3>
+				  <h3>&nbsp;</h3>
+				  <h3>function hasValid(address who) public view returns (boolean); </h3>
+				  <h3>function purchase(uint256 from, uint256 to) public payable; </h3>
+				  <h3>} </h3>
+				  <h3>pragma solidity ^0.5.3; </h3>
+				  <h3>contract EIP is EIP1753 { </h3>
+				  <h3>string public name = "Kakadu National Park Camping Permit"; </h3>
+				  <h3>uint256 public totalSupply; </h3>
+				  <h3>&nbsp;</h3>
+				  <h3>address private _owner; </h3>
+				  <h3>mapping(address =&gt; bool) private _authorities; </h3>
+				  <h3>mapping(address =&gt; Permit) private _holders; </h3>
+				  <h3>&nbsp;</h3>
+				  <h3>struct Permit { </h3>
+				  <h3>address issuer; </h3>
+				  <h3>uint256 start; </h3>
+				  <h3>uint256 end; </h3>
+				  <h3>} </h3>
+				  <h3>constructor() public { </h3>
+				  <h3>_owner = msg.sender; </h3>
+				  <h3>} </h3>
+				  <h3>function grantAuthority(address who) public onlyOwner() { </h3>
+				  <h3>_authorities[who] = true; </h3>
+				  <h3>} </h3>
+				  <h3>function revokeAuthority(address who) public onlyOwner() { </h3>
+				  <h3>delete _authorities[who]; </h3>
+				  <h3>} </h3>
+				  <h3>function hasAuthority(address who) public view returns (bool) { </h3>
+				  <h3>return _authorities[who] == true; </h3>
+				  <h3>} </h3>
+				  <h3>function issue(address who, uint256 start, uint256 end) public onlyAuthority() { </h3>
+				  <h3>_holders[who] = Permit(_owner, start, end); totalSupply += 1; </h3>
+				  <h3>} </h3>
+				  <h3>function revoke(address who) public onlyAuthority() { </h3>
+				  <h3>delete _holders[who]; </h3>
+				  <h3>} </h3>
+				  <h3>function hasValid(address who) public view returns (bool) { </h3>
+				  <h3>return _holders[who].start &gt; now &amp;&amp; _holders[who].end &lt; now; </h3>
+				  <h3>} </h3>
+				  <h3>function purchase(uint256 from, uint256 to) public payable { </h3>
+				  <h3>require(msg.value == 1 ether, "Incorrect fee"); issue(msg.sender, from, to); </h3>
+				  <h3>} </h3>
+				  <h3>modifier onlyOwner() { </h3>
+				  <h3>require(msg.sender == _owner, "Only owner can perform this function"); _; </h3>
+				  <h3>} </h3>
+				  <h3>modifier onlyAuthority() { </h3>
+				  <h3>require(hasAuthority(msg.sender) == true, "Only an authority can perform this function"); </h3>
+				  <h3>_; </h3>
+				  <h3>} </h3>
+				  <h3>}</h3>
+</div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+
+                <div class="col-lg-6">
+                    
+                  
+
+              </div> <!-- end of col -->
+          </div> 
+            <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of interface -->
+
+
+    <!-- Footer -->
+    <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright and related rights waived via <a href="https://creativecommons.org/publicdomain/zero/1.0/">CCO</a> - Designed by Monique Thornton</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+</div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
